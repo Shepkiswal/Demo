@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "XYLTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +17,23 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    self.window.rootViewController = [self getMyRootViewController];
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
+}
+
+- (UINavigationController *)getMyRootViewController {
+    
+    XYLTableViewController *xylTVC = [[XYLTableViewController alloc] init];
+    
+    UINavigationController *naVC = [[UINavigationController alloc] initWithRootViewController:xylTVC];
+    
+    return naVC;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
