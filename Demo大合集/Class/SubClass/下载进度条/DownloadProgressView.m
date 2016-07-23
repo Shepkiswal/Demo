@@ -35,6 +35,8 @@
 - (void)setProgress:(CGFloat)progress {
     _progress = progress;
     
+    self.progressLayer.backgroundColor = [UIColor colorWithRed:1.0f green:_progress blue:_progress alpha:1.0f].CGColor;
+    
     if (progress <= 0) {
         self.progressLayer.frame = CGRectMake(0, 0, 0, self.frame.size.height);
     } else if (progress <= 1) {

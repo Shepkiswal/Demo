@@ -34,9 +34,9 @@
 
 - (void)createDataSource {
     
-    _titleArray = @[@"下载进度条控件",@"ImageView淡入淡出切换图片"];
+    _titleArray = @[@"下载进度条(封装)",@"ImageView淡入淡出切换图片",@"CALayer遮罩效果",@"贝塞尔曲线与CAShapeLayer",@"CAShapeLayer圆形动画",@"圆形进度条(封装)",@"CAGradientLayer色差动画",@"CAGradientLayer渐变切换图片"];
     
-    _controllerArray = @[@"DownloadProgressDemo",@"ImageViewChangePicture"];
+    _controllerArray = @[@"DownloadProgressDemo",@"ImageViewChangePicture",@"MaskLayer",@"BezierPath",@"CircleAnimation",@"CircleProgressDemo",@"ColorImageViewController",@"GradientImage"];
     
 }
 

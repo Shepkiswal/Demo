@@ -9,7 +9,7 @@
 #import "DownloadProgressDemo.h"
 #import "DownloadProgressView.h"
 
-#define random arc4random() % 100 / 100.f
+#define random arc4random() % 30 / 100.f
 
 @interface DownloadProgressDemo ()
 
@@ -26,19 +26,30 @@
     self.view.backgroundColor = [UIColor blackColor];
     
     self.progressView = [[DownloadProgressView alloc] initWithFrame:CGRectMake(20, 200, 300, 3)];
+    self.progressView.center = self.view.center;
     
-    self.progressView.layerColor = [UIColor yellowColor];
     [self.view addSubview:self.progressView];
     
-    self.timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(layerAnimation) userInfo:nil repeats:YES];
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:0.5f target:self selector:@selector(layerAnimation) userInfo:nil repeats:YES];
 }
 
 //直接修改单独创建的CALayer的属性可以触发隐式动画
 - (void)layerAnimation {
 //    NSLog(@"隐式动画");
-    
-    self.progressView.progress = random;
-    self.progressView.layerColor = [UIColor colorWithRed:random green:random blue:random alpha:1];
+    if (self.progressView.progress == 1.0){
+        
+        self.progressView.progress = 0.0;
+        
+    } else {
+        
+        if ((self.progressView.progress + random) > 1.0) {
+            
+            self.progressView.progress = 1.0;
+        }else {
+            
+            self.progressView.progress += random;
+        }
+    }
 }
 
 - (void)didReceiveMemoryWarning {

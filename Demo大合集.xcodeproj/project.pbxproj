@@ -14,6 +14,15 @@
 		3E1696AD1D4239FF00645C2D /* ImageViewChangePicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1696AC1D4239FF00645C2D /* ImageViewChangePicture.m */; };
 		3E1696B01D423AEC00645C2D /* IMG_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E1696AE1D423AEC00645C2D /* IMG_2.jpg */; };
 		3E1696B11D423AEC00645C2D /* IMG_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E1696AF1D423AEC00645C2D /* IMG_1.jpg */; };
+		3E36341B1D43326500B229A6 /* MaskLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E36341A1D43326500B229A6 /* MaskLayer.m */; };
+		3E36341E1D4334FA00B229A6 /* mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E36341C1D4334FA00B229A6 /* mask.png */; };
+		3E36341F1D4334FA00B229A6 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E36341D1D4334FA00B229A6 /* image.jpg */; };
+		3E36342B1D43450200B229A6 /* BezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E36342A1D43450200B229A6 /* BezierPath.m */; };
+		3E36342F1D43453F00B229A6 /* CircleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E36342E1D43453F00B229A6 /* CircleAnimation.m */; };
+		3E3634331D434C2C00B229A6 /* CircleProgressDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3634321D434C2C00B229A6 /* CircleProgressDemo.m */; };
+		3E3634361D434C3D00B229A6 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3634351D434C3D00B229A6 /* CircleView.m */; };
+		3E36343A1D435FF900B229A6 /* ColorImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3634391D435FF900B229A6 /* ColorImageViewController.m */; };
+		3E36343E1D4363A500B229A6 /* GradientImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E36343D1D4363A500B229A6 /* GradientImage.m */; };
 		3E537C7F1D42109C00480FCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E537C7E1D42109C00480FCB /* main.m */; };
 		3E537C8A1D42109D00480FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E537C891D42109D00480FCB /* Assets.xcassets */; };
 		3E537C8D1D42109D00480FCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E537C8B1D42109D00480FCB /* LaunchScreen.storyboard */; };
@@ -32,6 +41,22 @@
 		3E1696AC1D4239FF00645C2D /* ImageViewChangePicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewChangePicture.m; sourceTree = "<group>"; };
 		3E1696AE1D423AEC00645C2D /* IMG_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2.jpg; sourceTree = "<group>"; };
 		3E1696AF1D423AEC00645C2D /* IMG_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1.jpg; sourceTree = "<group>"; };
+		3E3634191D43326500B229A6 /* MaskLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskLayer.h; sourceTree = "<group>"; };
+		3E36341A1D43326500B229A6 /* MaskLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskLayer.m; sourceTree = "<group>"; };
+		3E36341C1D4334FA00B229A6 /* mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask.png; sourceTree = "<group>"; };
+		3E36341D1D4334FA00B229A6 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		3E3634291D43450200B229A6 /* BezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPath.h; sourceTree = "<group>"; };
+		3E36342A1D43450200B229A6 /* BezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPath.m; sourceTree = "<group>"; };
+		3E36342D1D43453F00B229A6 /* CircleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleAnimation.h; sourceTree = "<group>"; };
+		3E36342E1D43453F00B229A6 /* CircleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleAnimation.m; sourceTree = "<group>"; };
+		3E3634311D434C2C00B229A6 /* CircleProgressDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressDemo.h; sourceTree = "<group>"; };
+		3E3634321D434C2C00B229A6 /* CircleProgressDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressDemo.m; sourceTree = "<group>"; };
+		3E3634341D434C3D00B229A6 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		3E3634351D434C3D00B229A6 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		3E3634381D435FF900B229A6 /* ColorImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorImageViewController.h; sourceTree = "<group>"; };
+		3E3634391D435FF900B229A6 /* ColorImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorImageViewController.m; sourceTree = "<group>"; };
+		3E36343C1D4363A500B229A6 /* GradientImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientImage.h; sourceTree = "<group>"; };
+		3E36343D1D4363A500B229A6 /* GradientImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientImage.m; sourceTree = "<group>"; };
 		3E537C7A1D42109C00480FCB /* Demo大合集.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo大合集.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E537C7E1D42109C00480FCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E537C891D42109D00480FCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -72,8 +97,14 @@
 		3E16969A1D422EAB00645C2D /* SubClass */ = {
 			isa = PBXGroup;
 			children = (
+				3E36343B1D43637300B229A6 /* CAGradientLayer渐变切换图片 */,
+				3E3634371D435FD600B229A6 /* CAGradientLayer色差动画 */,
+				3E3634301D434C0600B229A6 /* 圆形进度条 */,
+				3E36342C1D43453F00B229A6 /* CAShapeLayer圆形动画 */,
+				3E3634281D43450200B229A6 /* 贝塞尔曲线与CAShapeLayer */,
 				3E16969B1D422EAB00645C2D /* 下载进度条 */,
 				3E1696AA1D4239A200645C2D /* ImageView淡入淡出切换图片 */,
+				3E3634181D43322400B229A6 /* CALayer遮罩效果 */,
 			);
 			path = SubClass;
 			sourceTree = "<group>";
@@ -107,6 +138,64 @@
 				3E1696AF1D423AEC00645C2D /* IMG_1.jpg */,
 			);
 			path = "ImageView淡入淡出切换图片";
+			sourceTree = "<group>";
+		};
+		3E3634181D43322400B229A6 /* CALayer遮罩效果 */ = {
+			isa = PBXGroup;
+			children = (
+				3E36341C1D4334FA00B229A6 /* mask.png */,
+				3E36341D1D4334FA00B229A6 /* image.jpg */,
+				3E3634191D43326500B229A6 /* MaskLayer.h */,
+				3E36341A1D43326500B229A6 /* MaskLayer.m */,
+			);
+			path = "CALayer遮罩效果";
+			sourceTree = "<group>";
+		};
+		3E3634281D43450200B229A6 /* 贝塞尔曲线与CAShapeLayer */ = {
+			isa = PBXGroup;
+			children = (
+				3E3634291D43450200B229A6 /* BezierPath.h */,
+				3E36342A1D43450200B229A6 /* BezierPath.m */,
+			);
+			path = "贝塞尔曲线与CAShapeLayer";
+			sourceTree = "<group>";
+		};
+		3E36342C1D43453F00B229A6 /* CAShapeLayer圆形动画 */ = {
+			isa = PBXGroup;
+			children = (
+				3E36342D1D43453F00B229A6 /* CircleAnimation.h */,
+				3E36342E1D43453F00B229A6 /* CircleAnimation.m */,
+			);
+			path = "CAShapeLayer圆形动画";
+			sourceTree = "<group>";
+		};
+		3E3634301D434C0600B229A6 /* 圆形进度条 */ = {
+			isa = PBXGroup;
+			children = (
+				3E3634311D434C2C00B229A6 /* CircleProgressDemo.h */,
+				3E3634321D434C2C00B229A6 /* CircleProgressDemo.m */,
+				3E3634341D434C3D00B229A6 /* CircleView.h */,
+				3E3634351D434C3D00B229A6 /* CircleView.m */,
+			);
+			path = "圆形进度条";
+			sourceTree = "<group>";
+		};
+		3E3634371D435FD600B229A6 /* CAGradientLayer色差动画 */ = {
+			isa = PBXGroup;
+			children = (
+				3E3634381D435FF900B229A6 /* ColorImageViewController.h */,
+				3E3634391D435FF900B229A6 /* ColorImageViewController.m */,
+			);
+			path = "CAGradientLayer色差动画";
+			sourceTree = "<group>";
+		};
+		3E36343B1D43637300B229A6 /* CAGradientLayer渐变切换图片 */ = {
+			isa = PBXGroup;
+			children = (
+				3E36343C1D4363A500B229A6 /* GradientImage.h */,
+				3E36343D1D4363A500B229A6 /* GradientImage.m */,
+			);
+			path = "CAGradientLayer渐变切换图片";
 			sourceTree = "<group>";
 		};
 		3E537C711D42109C00480FCB = {
@@ -204,9 +293,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E537C8D1D42109D00480FCB /* LaunchScreen.storyboard in Resources */,
+				3E36341E1D4334FA00B229A6 /* mask.png in Resources */,
 				3E1696B11D423AEC00645C2D /* IMG_1.jpg in Resources */,
 				3E1696B01D423AEC00645C2D /* IMG_2.jpg in Resources */,
 				3E537C8A1D42109D00480FCB /* Assets.xcassets in Resources */,
+				3E36341F1D4334FA00B229A6 /* image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,12 +308,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E36341B1D43326500B229A6 /* MaskLayer.m in Sources */,
 				3E1696A11D422EAB00645C2D /* DownloadProgressDemo.m in Sources */,
 				3E1696A01D422EAB00645C2D /* AppDelegate.m in Sources */,
 				3E537C7F1D42109C00480FCB /* main.m in Sources */,
 				3E1696AD1D4239FF00645C2D /* ImageViewChangePicture.m in Sources */,
+				3E36342F1D43453F00B229A6 /* CircleAnimation.m in Sources */,
+				3E3634361D434C3D00B229A6 /* CircleView.m in Sources */,
+				3E36342B1D43450200B229A6 /* BezierPath.m in Sources */,
 				3E1696A61D422EDC00645C2D /* XYLTableViewController.m in Sources */,
+				3E36343E1D4363A500B229A6 /* GradientImage.m in Sources */,
 				3E1696A91D422F2100645C2D /* DownloadProgressView.m in Sources */,
+				3E36343A1D435FF900B229A6 /* ColorImageViewController.m in Sources */,
+				3E3634331D434C2C00B229A6 /* CircleProgressDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
