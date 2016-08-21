@@ -7,3 +7,4 @@
 #6、圆形进度条(封装)
 #7、CAGradientLayer色差动画
 #8、CAGradientLayer渐变切换图片
+#8、波浪进度动画
