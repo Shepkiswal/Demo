@@ -23,6 +23,11 @@
 		3E3634361D434C3D00B229A6 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3634351D434C3D00B229A6 /* CircleView.m */; };
 		3E36343A1D435FF900B229A6 /* ColorImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3634391D435FF900B229A6 /* ColorImageViewController.m */; };
 		3E36343E1D4363A500B229A6 /* GradientImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E36343D1D4363A500B229A6 /* GradientImage.m */; };
+		3E4449E81D69B6800098C7C6 /* CircleWave.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4449E71D69B6800098C7C6 /* CircleWave.m */; };
+		3E4449EA1D69B69C0098C7C6 /* rotation.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4449E91D69B69C0098C7C6 /* rotation.png */; };
+		3E4449EC1D69B6AA0098C7C6 /* wave.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4449EB1D69B6AA0098C7C6 /* wave.png */; };
+		3E4449EF1D69B6DE0098C7C6 /* UIView+SLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4449EE1D69B6DE0098C7C6 /* UIView+SLExtension.m */; };
+		3E4449F11D69B86B0098C7C6 /* CircleWave.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4449F01D69B86B0098C7C6 /* CircleWave.storyboard */; };
 		3E537C7F1D42109C00480FCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E537C7E1D42109C00480FCB /* main.m */; };
 		3E537C8A1D42109D00480FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E537C891D42109D00480FCB /* Assets.xcassets */; };
 		3E537C8D1D42109D00480FCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E537C8B1D42109D00480FCB /* LaunchScreen.storyboard */; };
@@ -57,6 +62,13 @@
 		3E3634391D435FF900B229A6 /* ColorImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorImageViewController.m; sourceTree = "<group>"; };
 		3E36343C1D4363A500B229A6 /* GradientImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientImage.h; sourceTree = "<group>"; };
 		3E36343D1D4363A500B229A6 /* GradientImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientImage.m; sourceTree = "<group>"; };
+		3E4449E61D69B6800098C7C6 /* CircleWave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleWave.h; sourceTree = "<group>"; };
+		3E4449E71D69B6800098C7C6 /* CircleWave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleWave.m; sourceTree = "<group>"; };
+		3E4449E91D69B69C0098C7C6 /* rotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotation.png; sourceTree = "<group>"; };
+		3E4449EB1D69B6AA0098C7C6 /* wave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wave.png; sourceTree = "<group>"; };
+		3E4449ED1D69B6DE0098C7C6 /* UIView+SLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SLExtension.h"; sourceTree = "<group>"; };
+		3E4449EE1D69B6DE0098C7C6 /* UIView+SLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SLExtension.m"; sourceTree = "<group>"; };
+		3E4449F01D69B86B0098C7C6 /* CircleWave.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CircleWave.storyboard; sourceTree = "<group>"; };
 		3E537C7A1D42109C00480FCB /* Demo大合集.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo大合集.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E537C7E1D42109C00480FCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E537C891D42109D00480FCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -97,6 +109,7 @@
 		3E16969A1D422EAB00645C2D /* SubClass */ = {
 			isa = PBXGroup;
 			children = (
+				3E4449E51D69B6550098C7C6 /* 波纹进度动画 */,
 				3E36343B1D43637300B229A6 /* CAGradientLayer渐变切换图片 */,
 				3E3634371D435FD600B229A6 /* CAGradientLayer色差动画 */,
 				3E3634301D434C0600B229A6 /* 圆形进度条 */,
@@ -196,6 +209,20 @@
 				3E36343D1D4363A500B229A6 /* GradientImage.m */,
 			);
 			path = "CAGradientLayer渐变切换图片";
+			sourceTree = "<group>";
+		};
+		3E4449E51D69B6550098C7C6 /* 波纹进度动画 */ = {
+			isa = PBXGroup;
+			children = (
+				3E4449ED1D69B6DE0098C7C6 /* UIView+SLExtension.h */,
+				3E4449EE1D69B6DE0098C7C6 /* UIView+SLExtension.m */,
+				3E4449E61D69B6800098C7C6 /* CircleWave.h */,
+				3E4449E71D69B6800098C7C6 /* CircleWave.m */,
+				3E4449F01D69B86B0098C7C6 /* CircleWave.storyboard */,
+				3E4449E91D69B69C0098C7C6 /* rotation.png */,
+				3E4449EB1D69B6AA0098C7C6 /* wave.png */,
+			);
+			path = "波纹进度动画";
 			sourceTree = "<group>";
 		};
 		3E537C711D42109C00480FCB = {
@@ -298,6 +325,9 @@
 				3E1696B01D423AEC00645C2D /* IMG_2.jpg in Resources */,
 				3E537C8A1D42109D00480FCB /* Assets.xcassets in Resources */,
 				3E36341F1D4334FA00B229A6 /* image.jpg in Resources */,
+				3E4449EC1D69B6AA0098C7C6 /* wave.png in Resources */,
+				3E4449F11D69B86B0098C7C6 /* CircleWave.storyboard in Resources */,
+				3E4449EA1D69B69C0098C7C6 /* rotation.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,9 +341,11 @@
 				3E36341B1D43326500B229A6 /* MaskLayer.m in Sources */,
 				3E1696A11D422EAB00645C2D /* DownloadProgressDemo.m in Sources */,
 				3E1696A01D422EAB00645C2D /* AppDelegate.m in Sources */,
+				3E4449EF1D69B6DE0098C7C6 /* UIView+SLExtension.m in Sources */,
 				3E537C7F1D42109C00480FCB /* main.m in Sources */,
 				3E1696AD1D4239FF00645C2D /* ImageViewChangePicture.m in Sources */,
 				3E36342F1D43453F00B229A6 /* CircleAnimation.m in Sources */,
+				3E4449E81D69B6800098C7C6 /* CircleWave.m in Sources */,
 				3E3634361D434C3D00B229A6 /* CircleView.m in Sources */,
 				3E36342B1D43450200B229A6 /* BezierPath.m in Sources */,
 				3E1696A61D422EDC00645C2D /* XYLTableViewController.m in Sources */,

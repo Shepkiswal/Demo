@@ -24,8 +24,7 @@
     [super viewDidLoad];
     
     self.title = @"目录";
-    
-    //创建数据源数组
+
     [self createDataSource];
     
 }
@@ -34,9 +33,9 @@
 
 - (void)createDataSource {
     
-    _titleArray = @[@"下载进度条(封装)",@"ImageView淡入淡出切换图片",@"CALayer遮罩效果",@"贝塞尔曲线与CAShapeLayer",@"CAShapeLayer圆形动画",@"圆形进度条(封装)",@"CAGradientLayer色差动画",@"CAGradientLayer渐变切换图片"];
+    _titleArray = @[@"下载进度条(封装)",@"ImageView淡入淡出切换图片",@"CALayer遮罩效果",@"贝塞尔曲线与CAShapeLayer",@"CAShapeLayer圆形动画",@"圆形进度条(封装)",@"CAGradientLayer色差动画",@"CAGradientLayer渐变切换图片",@"波纹进度动画"];
     
-    _controllerArray = @[@"DownloadProgressDemo",@"ImageViewChangePicture",@"MaskLayer",@"BezierPath",@"CircleAnimation",@"CircleProgressDemo",@"ColorImageViewController",@"GradientImage"];
+    _controllerArray = @[@"DownloadProgressDemo",@"ImageViewChangePicture",@"MaskLayer",@"BezierPath",@"CircleAnimation",@"CircleProgressDemo",@"ColorImageViewController",@"GradientImage",@"CircleWave"];
     
 }
 
@@ -62,12 +61,21 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
+    UIViewController *vc;
     //通过类名得到类，并创建对象
-    Class class = NSClassFromString(_controllerArray[indexPath.row]);
+    if ([_controllerArray[indexPath.row] isEqualToString:@"CircleWave"]) {
+        
+        vc = [UIStoryboard storyboardWithName:@"CircleWave" bundle:nil].instantiateInitialViewController;
+        
+    } else {
+        
+        Class class = NSClassFromString(_controllerArray[indexPath.row]);
+        
+        vc = [[class alloc] init];
+
+    }
     
-    id vc = [[class alloc] init];
-    
-    [vc setValue:_titleArray[indexPath.row] forKey:@"title"];
+    vc.title = _titleArray[indexPath.row];
     
     [self.navigationController pushViewController:vc animated:YES];
     
